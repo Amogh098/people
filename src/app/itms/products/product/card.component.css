@@ -1,0 +1,225 @@
+.lalu{
+    position: relative;
+}
+
+
+.amogh{
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: #0067dbe3;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.container{
+       
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.v{
+    height:370px;
+width: 321px;
+margin-left: 85px;
+border: solid #ffffff66;
+
+padding-left: 15px;
+margin-top: 30px;
+font-family: 'Roboto', sans-serif;
+/* background-image: url(https://wallpapercave.com/dwp2x/wp2288271.jpg); */
+background-color:  #00000096;
+
+border-radius: 10px;
+transition: 0.4s;
+}
+.v:hover{
+    scale: 1.05;
+    box-shadow:29px 13px 18px rgba(0, 0, 0, 0.3); 
+}
+
+button{
+   
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 5px 15px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border-radius: 5px;
+        box-shadow:29px 13px 18px rgba(0, 0, 0, 0.3); 
+   
+}
+
+button:hover {
+        background-color: white;
+        color: black; /* Change background color on hover */
+    }
+img{
+    height: 183px;
+width: 280px;
+padding-left: -10px;
+padding-top: 9px;
+object-fit: cover;
+
+
+}
+.m{
+height: 200px;
+} 
+h3{
+color: white;
+}
+.o {
+width: 900px;
+height: 90px;
+
+border-radius: 20px;
+margin-left: 16px;
+box-shadow:29px 13px 18px rgba(0, 0, 0, 0.3); 
+background-color:  #00000070;
+}
+.p{
+width: 699px;
+height: 90px;
+border: 1px solid white;
+border-radius: 20px;
+margin-left: 86px; 
+}
+input{
+width: 249px;
+height: 29px;
+background-color: #00000073;
+border-radius: 20px;
+box-shadow:29px 13px 18px rgba(0, 0, 0, 0.3); 
+
+color: white;
+font-family: 'Roboto', sans-serif;
+border: solid #24222270;
+margin-left: 843px;
+
+}
+input::placeholder {
+color: white;
+}
+
+
+/* Hide the default radio input */
+input[type="radio"] {
+display: none;
+}
+
+/* Style for the label (button) */
+.button-like {
+display: inline-block;
+padding: 45px 69px;
+color: #fff;
+
+border-radius: 15px;
+cursor: pointer;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+transition: background-color 0.3s, color 0.3s;
+margin-left: 41px;
+
+}
+#q{
+background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/824342a7fd8144009ec67dc37511aee6_9366/Supernova_3_Running_Shoes_White_IE4366_HM3_hover.jpg);
+background-size: 90%;
+background-size: cover;
+/* background-repeat: no-repeat; */
+background-position: 50%;
+box-shadow:29px 13px 18px rgba(0, 0, 0, 0.3); 
+
+
+}
+#q:hover {
+
+transform: scale(1.1); /* Scale the element on hover */
+/* Add any other hover styles you want */
+}
+
+#w{
+
+background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c5b62c63166e46018d8f118795670051_9366/MYSHELTER_COLD.RDY_Jacket_Grey_HZ5699_HM1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+box-shadow:29px 13px 18px rgba(0, 0, 0, 0.3); 
+}
+#w:hover {
+
+transform: scale(1.1); /* Scale the element on hover */
+/* Add any other hover styles you want */
+}
+#r{
+background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7c998d8e2f5c463fa168af3c0086d901_9366/Valentines_Day_Tee_Pink_IL8295_HM5.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+box-shadow:29px 13px 18px rgba(0, 0, 0, 0.3); 
+}
+#r:hover {
+
+transform: scale(1.1); /* Scale the element on hover */
+/* Add any other hover styles you want */
+}
+#t{
+background-image: url(https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ace8b93714314cd78363d6374fd00a2f_9366/Adicolor_Neuclassics_Tee_Turquoise_IM1829_21_model.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+box-shadow:29px 13px 18px rgba(0, 0, 0, 0.3); 
+
+}
+#t:hover {
+
+transform: scale(1.1); /* Scale the element on hover */
+/* Add any other hover styles you want */
+}
+#y{
+background-image: url(https://cdn.britannica.com/94/193794-050-0FB7060D/Adidas-logo.jpg?w=400&h=300&c=crop);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border: solid white;
+
+box-shadow:29px 13px 18px rgba(0, 0, 0, 0.3); 
+}
+#y:hover {
+
+transform: scale(1.1); 
+
+}
+
+
+.button-like:hover {
+background-color: #3498db; 
+color: #fff; 
+}
+h6{
+height: 10px;
+width: 10px;
+}
+.u{
+
+margin-top: 24px;
+margin-left: 102px;
+
+
+
+}
+#i{
+margin-bottom: -58px;
+}
+.vmj{
+background-color: black;
+color: white ;
+height: 100px;
+}

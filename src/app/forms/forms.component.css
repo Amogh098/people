@@ -1,0 +1,19 @@
+.v{
+
+    width: 50%;
+    height: 400px;
+
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    box-sizing: border-box
+}
+
+.v button{
+  margin-left: 245px;
+  margin-top: 36px;
+}
+
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}

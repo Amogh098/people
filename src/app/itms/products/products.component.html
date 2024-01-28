@@ -1,0 +1,42 @@
+
+<div class="parent">
+    <div *ngFor="let users of user">
+<div [ngClass]="{ 'inc':!users.active,'container':users.active}"   >
+
+<h1>{{users.id}}</h1>
+<h1>{{users.username}}</h1>
+<span class="badge" *ngIf="users.subscription " >premium</span>
+<span [ngClass]="{ 'badge2 ': users.active ,'badge3':!users.active}" >{{users.active ===true?'active':'inactive'}}</span>
+<div></div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="child" *ngIf="users.subscription ;else bhikarchot"> premium</div>
+<ng-template  #bhikarchot >
+   <div class="child"> bhikarchot</div>
+</ng-template> -->

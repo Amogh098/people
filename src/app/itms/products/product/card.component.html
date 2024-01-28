@@ -1,0 +1,53 @@
+<style>
+    .space{
+       margin: 10px;
+    }
+    .parent{
+    position: relative;
+    transition: 0.5s;
+}
+    .parent img {
+    width: 133px ;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 70px;
+}
+
+.hover{
+    position: absolute;
+    top: 138px;
+    left: -4px;
+   
+}
+
+.parent:hover{
+    scale: 1.05;
+    box-shadow: 3px 3px 15px black;
+}
+#carouselExampleCaptions img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+</style>
+<!-- card.component.html -->
+<div class="container">
+
+    <div class="v lalu" *ngFor="let product of all_products">
+      <img [src]="product.img1" alt="">
+      <div class="j">
+        <h2 style="color: white;">{{ product.title }}</h2>
+        <span class="amogh">{{ product.price | currency:'INR' }}</span>
+        <button (click)="add_to_cart(product)">Add to Cart</button>
+      </div>
+    </div>
+  
+  </div>
+<h1>child is here {{f}}</h1>
+<h1></h1>
+
+<input type="text" [(ngModel)]="viraj">
+<button (click)="viraj1()"></button>
+
+<div style="width: 100px; height: 100px; background-color:yellow" (click)="subcribe()">subcribr</div>

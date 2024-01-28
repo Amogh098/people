@@ -1,0 +1,22 @@
+<form class="v"(ngSubmit)="OnFormSubmit(f)"   #f="ngForm">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label"  >Name</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" ngModel required>
+
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label"  >email</label>
+      <input type="text" class="form-control" id="exampleInputPassword1"  name="email" ngModel   email required #email="ngModel">
+      <span *ngIf="!email.valid && email.touched ">email invalid</span>
+    </div>
+
+  <label for="gender">Gender</label>
+    <select class="form-select" aria-label="Default select example" id="gender" name="gender" ngModel>
+     
+        <option value="male">male</option>
+        <option value="women">women </option>
+        <option value="chakka">chakka</option>
+      </select>
+    <button type="submit" class="btn btn-primary"  [disabled]="!f.valid">Submit</button>
+  </form>
+ 
